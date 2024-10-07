@@ -1,13 +1,13 @@
 #!/bin/bash
 
-cd client
+# start backend 
+cd backend
+npm install
+npm run dev
 
+# start frontend
+cd ..
+cd client
 npm install
 npm start &
 
-cd ..
-
-cd backend
-
-npm install
-npm run dev
