@@ -1,11 +1,11 @@
 #!/bin/bash
 
-cd backend
+# cd backend
+# npm install
+# npm run dev &
+
+# cd ../client
+# npm install
+
+cd client
 npm install
-npm run dev &
-
-cd ../client
-npm install
-npm start
-
-
