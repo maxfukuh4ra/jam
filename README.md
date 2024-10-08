@@ -1,16 +1,44 @@
-# jam
+# 🎶 **Jam**  
+A full-stack web app for Spotify users to follow their friends' live listening activity and view weekly listening stats for their own account.
+
 ---
-Full-stack web app for Spotify users to follow their friends to view and interact with their live listening activity. Provides weekly listening stats for their own account as well.
 
-## Getting Started
-1. Clone this repository on to your local machine <br />
-1a. If you are recreating this, using the Spotify API requires making an app on their platform at https://developer.spotify.com/. Use of an app in development mode, like ours, is invite only. After creating an app on Spotify's platform, you can copy the client id and client secret into the relevant fields in the .env folder in the backend. <br />
-1b. For the database, one can be created with MongoDB Atlas. Using the connect interface, place the connection string into MONGO_URI in the .env file. <br />
-1c. Side note: in production, the .env folder holds sensitive information and should be included in the .gitignore file. <br />
-2. Run **npm i** in both the client and backend folders to install dependencies. 
-3. In seperate terminal sessions, run **npm run dev** in the backend folder and **npm start** in the client folder.
-4. Navigate to http://localhost:3000/ in your browser
+## 🚀 **Getting Started**
 
-**NOTE TO THE TAs:** if you would like to personally run our app, please send your email [here](mailto:kay1inchung@g.ucla.edu?subject=[jam]%20Spotify%20Developers%20Access) so we can grant you access to our Spotify Developers app. 
+1. **Clone this repository** to your local machine.
+   
+2. **Spotify API Setup:**
+   - To use the Spotify API, create an app on the [Spotify Developer Dashboard](https://developer.spotify.com/).
+   - Since our app is in development mode, access is invite-only.
+   - After creating your app, copy the **client ID** and **client secret** into the `.env` file located in the backend folder.
 
+3. **Database Setup (MongoDB Atlas):**
+   - Create a MongoDB database using [MongoDB Atlas](https://www.mongodb.com/atlas/database).
+   - Copy the connection string and paste it into the `MONGO_URI` field in the `.env` file.
+   
+   ⚠️ *Note*: Ensure the `.env` file is included in your `.gitignore` file to avoid exposing sensitive information in production.
 
+4. **Install Dependencies:**
+   - Navigate to both the `client` and `backend` folders and run:
+     ```bash
+     npm i
+     ```
+     
+5. **Run the App:**
+   - In two separate terminal sessions, navigate to the `client` and `backend` folders:
+     - In the **backend** folder, run:
+       ```bash
+       npm run dev
+       ```
+     - In the **client** folder, run:
+       ```bash
+       npm start
+       ```
+     
+6. **Access the App:**
+   - Open your browser and go to [http://localhost:3000/](http://localhost:3000/).
+   
+---
+
+## 🎯 **Note for TAs:**
+If you'd like to run our app yourself, please request Spotify Developer access by emailing us at [kay1inchung@g.ucla.edu](mailto:kay1inchung@g.ucla.edu?subject=[jam]%20Spotify%20Developers%20Access).
